@@ -1,0 +1,276 @@
+/*
+Siyah Ok Tarafýndan Kodlanmýþtýr.
+*/
+body{
+	width:1100px;
+	margin:auto;
+	}
+	
+/* latin-ext */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Oswald Light'), local('Oswald-Light'), url(http://fonts.gstatic.com/s/oswald/v9/l1cOQ90roY9yC7voEhngDFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Oswald Light'), local('Oswald-Light'), url(http://fonts.gstatic.com/s/oswald/v9/HqHm7BVC_nzzTui2lzQTDVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(http://fonts.gstatic.com/s/oswald/v9/RqRF4AQrkUh3ft98NHH2mA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(http://fonts.gstatic.com/s/oswald/v9/pEobIV_lL25TKBpqVI_a2w.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+.clear {clear: both}	
+
+#header{
+	height:100px;
+}
+	.logo{
+	float:left;
+	margin:10px;
+	}
+	
+	.header-contact{
+	float:right;
+	margin:10px;
+	}
+	
+#nav{
+	width:1100px;
+    height:50px;
+    float:left;
+    position:relative;
+	background:#000;
+	border-radius: 10px;
+}
+
+#nav a{
+    width:auto;
+    height:50px;
+    float:left;
+	font-family:"Oswald", cursive, sans-serif;
+    font-size:16px;
+    color:#fff;
+    padding-left:18px;
+    padding-right:18px;
+    line-height:50px;	
+}
+
+#nav a:hover{
+	color:#000;
+}
+
+#article input{
+	border:1px dashed #78bcf0;
+	width:250px;
+	height:30px;
+	margin-bottom:10px;
+	margin-left:10px;
+}
+
+#article textarea{
+	border:1px dashed #78bcf0;
+	width:450px;
+	margin-bottom:10px;
+	vertical-align: top;
+	margin-left:10px;
+}
+
+#article select{
+	border:1px dashed #78bcf0;
+	width:250px;
+	height:30px;
+	margin-bottom:10px;
+	margin-left:10px;
+}
+
+#article button{
+	font-family:"Oswald", cursive, sans-serif;
+	width:150px;
+	height:50px;
+	background:#000;
+	color:#fff;
+	border-radius:10px;
+	cursor:pointer;
+	
+}
+
+#article button:hover{
+	color:#000;
+}
+
+#article fieldset{
+	font-family:"Oswald", cursive, sans-serif;
+}
+
+	.servistalep{
+		width:750px;
+		float:left;
+		margin-top:30px;
+	}
+
+	.article-baslik{
+		margin-top:10px;
+		height:50px;
+		position:relative;
+		background:#000;
+		border-radius: 10px;
+	}
+
+	.article-baslik h1{
+		width:auto;
+		height:50px;
+		float:left;
+		font-family:"Oswald", cursive, sans-serif;
+		font-size:16px;
+		color:#fff;
+		padding-left:18px;
+		padding-right:18px;
+		line-height:50px;
+
+	}
+	
+	.hizmetlerimiz{
+		width:730px;
+		float:left;
+		margin-left:15px;
+	}
+	
+	
+	.hizmetlerimiz h2{
+		margin-top:20px;
+		font: 19px Arial;
+		border-left: 10px solid #000;
+	}
+	
+	.hizmetlerimiz p{
+		margin-top:5px;
+		margin-left:10px;
+		font: 16px Arial;
+		line-height:20px;	
+	}
+	.sag {
+		width:295px;
+		float:right;
+		margin-right:15px;
+		margin-top:20px;
+	}
+	.sag button {
+		margin-left:80px;
+		margin-top:30px;
+	}
+#footer{
+	margin-top:15px;
+	width:1100px;
+    height:65px;
+    float:left;
+    position:relative;
+	background:#000;
+	border-radius: 10px;
+}
+#footer a{
+    width:auto;
+    height:65px;
+    float:right;
+	font-family:"Oswald", cursive, sans-serif;
+    font-size:11px;
+    color:#fff;
+    padding-left:18px;
+    padding-right:18px;
+    line-height:65px;	
+}
+#footer p{
+    width:auto;
+    height:65px;
+    float:left;
+	font-family:"Oswald", cursive, sans-serif;
+    font-size:11px;
+    color:#fff;
+    padding-left:18px;
+    padding-right:18px;
+    line-height:65px;	
+}
+#footer a:hover{
+	color:#000;
+}
+
+
+#slider1_container{
+	position:relative;  margin:5px auto; width: 1100px; height: 365px; 
+}
+#slider2_container{	
+	 cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 1100px; height: 365px;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+body{
+width:320px;
+}
+#header{
+height:320px;
+height:75px;
+}
+#nav{
+width:320px;
+}
+#nav a{
+    font-size:11px; 
+}
+.sag {
+		width:295px;
+		float:right;
+		margin-right:15px;
+		margin-top:20px;
+}
+	.hizmetlerimiz{
+		width:320px;
+		margin-left:0px;
+	}
+#footer{
+width:320px;
+height:130px;
+}
+#slider1_container{
+width:320px;
+}
+#slider2_container{
+width:320px; 
+}
+	.servistalep{
+		width:300px; 
+		width:300px; 
+	}
+#article input{
+	width:230px;
+}
+
+#article textarea{
+	width:230px;
+}
+
+#article select{
+	width:230px;
+}
+#article fieldset{
+	width:300px;
+}
+}
+
